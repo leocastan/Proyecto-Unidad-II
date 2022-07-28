@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+header .title {
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+
+header h1, header h2 {
+	margin: 0;
+}
+
+.bg-custom{
+    background-color: rgba(229, 0, 241, 0.43);
+}
+
+button {
+    margin: 10px
+}
+
+.btn-custom-orange {
+    color: #fff;
+    background-color: #f89115;
+}
+
+.btn-custom-blue {
+    color: #fff;
+    background-color: #0f093b;
+}
+
+.border-custom {
+    border-color: #0f093b;
+}
+
+.col{
+    margin-bottom: 15px;
+}
