@@ -19,7 +19,7 @@ function go(){
         alert("Usuario y/o contraseña incorrecto!")
       }
     }) //    //imprimir los datos en la consola
-    .catch(err => console.log('Solicitud fallida', err)); // Capturar errore
+    .catch(err => console.log('Solicitud fallida', err)); // Capturar error
 }
 
 
