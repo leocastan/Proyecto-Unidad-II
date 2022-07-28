@@ -7,7 +7,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then((db) => console.log("API Connected"))
+  .then((db) => console.log("La aplicacion fue conectada a la BDD - Ojala no falle lo demas :'<"))
   .catch((err) => console.error(err));
 
 module.exports = mongoose;
