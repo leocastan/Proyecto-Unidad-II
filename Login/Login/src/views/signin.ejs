@@ -1,0 +1,29 @@
+<%- layout('layaout/main.ejs') %>
+<div class="row ">
+    <div class="col-md-4 offset-md-4">
+        <div class="card mt-4 text-center">
+            <div class="card-header">
+                <h3>Registro</h3>
+            </div>
+            <div>
+                <img src="/src/views/assets/img/Auto.png" width="230" height="60">
+            </div>
+            <div class="card-body">
+                <form action="/signin" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Insert Email"
+                        class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" placeholder="Insert password"
+                        class="form-control">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primaru btn-block mt-4">
+                        SigIn
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<%- layout('layaout/main.ejs') %>
+<form action="/signup" method="POST">
+    <br>
+    <input type="email" name="email" placeholder="Insert Email">
+    <input type="password" name="password" placeholder="Insert password">
+    </br>
+    <br>
+    <div class="row ">
+        <input type="radio" id="admin" name="fav_language" value="admin">
+        <label for="html">&nbsp Admin</label><br>
+        <input type="radio" id="profesor" name="fav_language" value="profesor">
+        <label for="css">&nbsp Profesor</label><br>
+        <input type="radio" id="estudiante" name="fav_language" value="estudiante">
+        <label for="javascript">&nbsp Estudiante</label>
+    </div>
+    </br>
+    
+    <div >
+        <button type="submit">
+            Signup
+        </button>
+    </div>
+    
+</form>
